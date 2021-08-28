@@ -14,12 +14,14 @@ elif what == "-":
     print("Wynik :"  + str(c) )
     print("Do widzenia")
 elif what == "/":
-    c = a / b
-    if b == 0:
-        print("Деление на 0!")
     
+    if b == 0:
+        print("nie można dzielić na zero!")
+       
+    else: 
+        c = a / b
         print("Wynik :"  + str(c) )
-        print("Do widzenia")    
+        print("Do widzenia")      
 elif what == "*":
     c = a * b
     print("Wynik :"  + str(c) )
